@@ -35,9 +35,7 @@ if 3 <= ders_sayısı <= 5:
     vize=int(input("vize puanı: "))
     final=int(input("final puanı: "))
     proje=int(input("proje puanı: "))
-
-    notlar = ("midterm:", vize, "final:", final, "project:", proje)
-
+    
     ortalama = (vize * 3 / 10) + (final / 2) + (proje / 5)
     puan = round(ortalama)
     if puan > 90:
