@@ -4,11 +4,13 @@ isim_soyisim = input("isim ve soyisim giriniz: ")
 while True:
     if isim_soyisim == öğrenci_bilgisi:
         print("Welcome", öğrenci_bilgisi)
+        break
     else:
         print("lütfen bilgileri kontrol edip tekrar giriniz!")
         isim_soyisim = input("isim ve soyisim giriniz: ")
         if isim_soyisim == öğrenci_bilgisi:
             print("Welcome", öğrenci_bilgisi)
+            break
         else :
             print("lütfen bilgileri kontrol edip tekrar giriniz!")
             isim_soyisim = input("isim ve soyisim giriniz: ")
