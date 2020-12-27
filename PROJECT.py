@@ -56,3 +56,5 @@ if 3 <= ders_sayısı <= 5:
 
 elif ders_sayısı < 3 :
     print("You failed in class")
+else:
+    print("Yanlış ders sayısı girdiniz lütfen kontrol edip tekrar deneyiniz!!")
