@@ -4,13 +4,13 @@ isim_soyisim = input("isim ve soyisim giriniz: ")
 while True:
     if isim_soyisim == öğrenci_bilgisi:
         print("Welcome", öğrenci_bilgisi)
-        break
+        
     else:
         print("lütfen bilgileri kontrol edip tekrar giriniz!")
         isim_soyisim = input("isim ve soyisim giriniz: ")
         if isim_soyisim == öğrenci_bilgisi:
             print("Welcome", öğrenci_bilgisi)
-            break
+           
         else :
             print("lütfen bilgileri kontrol edip tekrar giriniz!")
             isim_soyisim = input("isim ve soyisim giriniz: ")
@@ -18,9 +18,8 @@ while True:
                 print("Welcome", öğrenci_bilgisi)
             else :
                 print("Lütfen daha sonra tekrar deneyiniz!!")
-            break
+                break
 
-if isim_soyisim == öğrenci_bilgisi:
 
     ders1 = input("ders1'i giriniz: ")
     ders2 = input("ders2'yi giriniz: ")
@@ -54,10 +53,14 @@ if isim_soyisim == öğrenci_bilgisi:
         elif puan < 30:
             print("FF aldınız")
             print("Dersten kaldınız")
+        break
+          
 
 
 
     elif ders_sayısı < 3:
         print("You failed in class")
+        break
     else:
         print("Yanlış ders sayısı girdiniz lütfen kontrol edip tekrar deneyiniz!!")
+        break
