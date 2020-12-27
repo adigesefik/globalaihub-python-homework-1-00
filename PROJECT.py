@@ -24,10 +24,11 @@ ders4 = input("ders4'ü giriniz: ")
 ders5 = input("ders5'i giriniz: ")
 
 Dersler = [ders1, ders2, ders3, ders4, ders5]
+print("Tüm dersler: ",Dersler)
 
 print("""En az 3, en fazla 5 ders alabilirsiniz """)
 
-ders_sayısı = int(input("Ders sayısını giriniz: "))
+ders_sayısı = int(input("Aldığınız ders sayısını giriniz: "))
 
 if 3 <= ders_sayısı <= 5:
     ders=input("Ders seçiniz: ")
